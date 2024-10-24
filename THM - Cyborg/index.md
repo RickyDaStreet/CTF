@@ -2,7 +2,7 @@
 
 ![6cc3e134a104210f90367c6557e42b6e.jpeg](img/995dbcf2-4ed1-441d-bde4-bdacabe5636a.png)
 
-![Difficulty.csv](img/Difficulty%2011d906d6ee19808b98d8c82328d0d3be.csv)
+![Difficulty](img/Difficulty%2011d906d6ee19808b98d8c82328d0d3be.csv)
 
 Use nmap tool to scan target ports
 
