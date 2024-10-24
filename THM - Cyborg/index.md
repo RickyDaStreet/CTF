@@ -1,6 +1,6 @@
 # TRYHACKME – Cyborg (CTF)
 
-![6cc3e134a104210f90367c6557e42b6e.jpeg](995dbcf2-4ed1-441d-bde4-bdacabe5636a.png)
+![6cc3e134a104210f90367c6557e42b6e.jpeg](img/995dbcf2-4ed1-441d-bde4-bdacabe5636a.png)
 
 [Difficulty](Difficulty%2011d906d6ee19808b98d8c82328d0d3be.csv)
 
