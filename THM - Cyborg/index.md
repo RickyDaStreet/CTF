@@ -2,13 +2,13 @@
 
 ![6cc3e134a104210f90367c6557e42b6e.jpeg](img/995dbcf2-4ed1-441d-bde4-bdacabe5636a.png)
 
-[Difficulty](Difficulty%2011d906d6ee19808b98d8c82328d0d3be.csv)
+[Difficulty](img/Difficulty%2011d906d6ee19808b98d8c82328d0d3be.csv)
 
 Use nmap tool to scan target ports
 
 **`nmap 10.10.23.140`**
 
-![Untitled.png](Untitled.png)
+![Untitled.png](img/Untitled.png)
 
 Port: Services:
 
@@ -26,7 +26,7 @@ Use gobuster tool to brute-force directories on web servers
 
 > -w –> path to the worldlist
 
-![2024-10-12 02_44_02-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](2024-10-12_02_44_02-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
+![2024-10-12 02_44_02-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](img/2024-10-12_02_44_02-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
 
 Directories found:
 
@@ -34,11 +34,11 @@ Directories found:
 
 /etc
 
-![2024-10-12 02_45_55-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](2024-10-12_02_45_55-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
+![2024-10-12 02_45_55-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](img/2024-10-12_02_45_55-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
 
-![2024-10-12 02_47_02-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](2024-10-12_02_47_02-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
+![2024-10-12 02_47_02-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](img/2024-10-12_02_47_02-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
 
-![2024-10-12 02_47_53-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](2024-10-12_02_47_53-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
+![2024-10-12 02_47_53-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](img/2024-10-12_02_47_53-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
 
 **Identify the hash type**
 
@@ -46,7 +46,7 @@ Directories found:
 
 **> hash** –> **$apr1$BpZ.Q.1m$F0qqPwHSOG50URuOVQTTn.**
 
-![2024-10-12 02_49_47-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](2024-10-12_02_49_47-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
+![2024-10-12 02_49_47-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](img/2024-10-12_02_49_47-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
 
 **hash type: md5(APR)**
 
@@ -58,9 +58,9 @@ Crack hash using hashcat tool
 
 > -a –> specifies the attack mode (0 – brute force)
 
-![2024-10-12 02_51_27-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](2024-10-12_02_51_27-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
+![2024-10-12 02_51_27-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](img/2024-10-12_02_51_27-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
 
-![2024-10-12 02_55_34-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](2024-10-12_02_55_34-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
+![2024-10-12 02_55_34-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](img/2024-10-12_02_55_34-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
 
 Unzip the file
 
@@ -68,11 +68,11 @@ Unzip the file
 
 > -xf –> used to extract .rar files
 
-![2024-10-12 02_56_19-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](2024-10-12_02_56_19-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
+![2024-10-12 02_56_19-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](img/2024-10-12_02_56_19-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
 
-![2024-10-12 02_57_22-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](2024-10-12_02_57_22-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
+![2024-10-12 02_57_22-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](img/2024-10-12_02_57_22-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
 
-![2024-10-12 02_56_19-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](2024-10-12_02_56_19-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox%201.png)
+![2024-10-12 02_56_19-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](img/2024-10-12_02_56_19-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox%201.png)
 
 **`cat README`**
 
@@ -90,33 +90,33 @@ Use the previous cracked  password
 
 **`cat note.txt`**
 
-![2024-10-12 03_02_04-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](2024-10-12_03_02_04-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
+![2024-10-12 03_02_04-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](img/2024-10-12_03_02_04-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
 
 Connect to the target machine via ssh
 
 **`ssh alex@10.10.159.75`**
 
-![2024-10-12 03_03_59-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](2024-10-12_03_03_59-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
+![2024-10-12 03_03_59-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](img/2024-10-12_03_03_59-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
 
 **`cat user.txt`**
 
-![2024-10-12 03_05_03-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](2024-10-12_03_05_03-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
+![2024-10-12 03_05_03-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](img/2024-10-12_03_05_03-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
 
 List the user privileges to see what we can do with this user
 
 **`sudo -l`**
 
-![2024-10-12 03_06_23-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](2024-10-12_03_06_23-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
+![2024-10-12 03_06_23-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](img/2024-10-12_03_06_23-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
 
 alex can run this script as “sudo”
 
 `cd /etc/mp3backups`
 
-![2024-10-12 03_11_51-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](2024-10-12_03_11_51-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
+![2024-10-12 03_11_51-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](img/2024-10-12_03_11_51-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
 
 **`cat backup.sh`**
 
-![2024-10-12 03_13_07-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](2024-10-12_03_13_07-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
+![2024-10-12 03_13_07-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](img/2024-10-12_03_13_07-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
 
 Optional arguments can be passed through this instruction (OPTARG) 
 
@@ -126,8 +126,8 @@ List directories on root
 
 > -c –> pass a command
 
-![2024-10-12 03_20_07-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](2024-10-12_03_20_07-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
+![2024-10-12 03_20_07-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](img/2024-10-12_03_20_07-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
 
 **`sudo ./backup.sh -c “cat /root/root.txt”`**
 
-![2024-10-12 03_21_40-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](2024-10-12_03_21_40-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
+![2024-10-12 03_21_40-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](img/2024-10-12_03_21_40-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
