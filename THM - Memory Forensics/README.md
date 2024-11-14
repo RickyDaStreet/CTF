@@ -1,6 +1,6 @@
 # TRYHACKME - Memory Forensics (CTF)
 
-![MemoryF.png](MemoryF.png)
+![MemoryF.png](img/MemoryF.png)
 
 First of all, we need to install Volatility to analyse the memory dump
 
@@ -59,17 +59,17 @@ Now we need to discover the operating system
 
 `vol -f /opt/Snapshot6_1609157562389.vmem windows.info`
 
-![image.png](image.png)
+![image.png](img/image.png)
 
 To extract hashes we can use this command
 
 `vol -f /opt/Snapshot6_1609157562389.vmem windows.hashdump` 
 
-![image.png](image%201.png)
+![image.png](img/image%201.png)
 
 Verify if the hash has been already cracked with [**https://crackstation.net/**](https://crackstation.net/)
 
-![image.png](image%202.png)
+![image.png](img/image%202.png)
 
 Now we have the first flag
 
@@ -77,40 +77,40 @@ For the second flag we need to discover when was the machine last shutdown, and 
 
 `python2 [vol.py](http://vol.py/) -f /home/kali/Downloads/Snapshot19_1609159453792.vmem imageinfo`
 
-![image.png](image%203.png)
+![image.png](img/image%203.png)
 
 `python2 [vol.py](http://vol.py/) -f /home/kali/Downloads/Snapshot19_1609159453792.vmem shutdowntime --profile=Win7SP1x64_23418`
 
-![image.png](image%204.png)
+![image.png](img/image%204.png)
 
 Now we need to know what was done on cmd, but first we need to list the processes to find the cmd pid (Process ID)
 
 `python2 [vol.py](http://vol.py/) -f /home/kali/Downloads/Snapshot19_1609159453792.vmem pslist --profile=Win7SP1x64_23418` 
 
-![image.png](image%205.png)
+![image.png](img/image%205.png)
 
-![image.png](image%206.png)
+![image.png](img/image%206.png)
 
 Once you have the process id (1920), extract/export the information
 
 `python2 [vol.py](http://vol.py) -f /home/kali/Downloads/Snapshot19_1609159453792.vmem memdump -p 1920 -D /home/kali/Documents —profile=Win7SP1x64_23418`
 
-![image.png](image%207.png)
+![image.png](img/image%207.png)
 
 Navigate to the directory where you exported the previous information
 
 `cd /home/kali/Documents`
 
-![image.png](image%208.png)
+![image.png](img/image%208.png)
 
 Use the grep command to search for the flag within the exported information
 
 `strings 1920.dmp | grep THM`
 
-![image.png](image%209.png)
+![image.png](img/image%209.png)
 
 To obtain the final flag, we need to find its corresponding passphrase. To discover we can use an existing plugin called ***truecryptpassphrase*** 
 
 `python2 [vol.py](http://vol.py/) -f /home/kali/Downloads/Snapshot14_1609164553061.vmem truecryptpassphrase --profile=Win7SP1x64_23418`
 
-![image.png](image%2010.png)
+![image.png](img/image%2010.png)
