@@ -3,16 +3,10 @@
 ![MemoryF.png](img/MemoryF.png)
 
 First of all, we need to install Volatility to analyse the memory dump
-
-- Vol3
-    
-    
+        
     ### **Volatility3 Installation**
     
     `python3 -m pip install -U git+https://github.com/volatilityfoundation/volatility3.git --break-system-packages`
-    
-- Vol2
-    
     
     ### **Volatility(2) Installation**
     
@@ -50,6 +44,7 @@ First of all, we need to install Volatility to analyse the memory dump
     
     `python2 [vol.py](http://vol.py/) -f /home/kali/Downloads/Snapshot19_1609159453792.vmem shutdowntime --profile=Win7SP1x64_23418`
     
+
 
 Basic Command Structure
 
