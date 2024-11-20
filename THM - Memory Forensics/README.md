@@ -42,7 +42,7 @@ First of all, we need to install Volatility to analyse the memory dump
     
     `cd /opt/volatility/`
     
-    `python2 [vol.py](http://vol.py/) -f /home/kali/Downloads/Snapshot19_1609159453792.vmem shutdowntime --profile=Win7SP1x64_23418`
+`python2 [vol.py](http://vol.py/) -f /home/kali/Downloads/Snapshot19_1609159453792.vmem shutdowntime --profile=Win7SP1x64_23418`
     
 
 
