@@ -64,7 +64,7 @@ After that run the exploit with this command
 
 ![run-script8.png](img/run-script8.png)
 
-![user&password-result9.png](user&password-result9.png)
+![user-password-result9.png](user-password-result9.png)
 
 As we can see, we discovered a username, email and a hash of a password
 
