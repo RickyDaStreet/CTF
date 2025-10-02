@@ -6,7 +6,7 @@ Use nmap tool to scan target ports
 
 **`nmap 10.10.23.140`**
 
-![Untitled.png](Untitled.png)
+![Untitled.png](img/nmap-scan#1.png)
 
 Port: Services:
 
@@ -24,7 +24,7 @@ Use gobuster tool to brute-force directories on web servers
 
 > -w –> path to the worldlist
 
-![2024-10-12 02_44_02-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](2024-10-12_02_44_02-TRYHACKME__Cyborg_(CTF).docx__Mozilla_Firefox.png)
+![2024-10-12 02_44_02-TRYHACKME – Cyborg (CTF).docx — Mozilla Firefox.png](img/gobuster-scan#1.png)
 
 Directories found:
 
