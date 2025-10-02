@@ -1,6 +1,6 @@
 # TRYHACKME – Mr. Robot (CTF)
 
-![MrRobot.png](MrRobot.png)
+![MrRobot.png](img/MrRobot.png)
 
 Use nmap to scan target ports
 
