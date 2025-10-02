@@ -1,6 +1,6 @@
 # TRYHACKME – Cyborg (CTF)
 
-![Cyborg.png](Cyborg.png)
+![Cyborg.png](img/Cyborg.png)
 
 Use nmap tool to scan target ports
 
